@@ -37,7 +37,7 @@ CREATE TABLE Client
     id            INT         NOT NULL AUTO_INCREMENT,
     ruc           VARCHAR(45) NOT NULL,
     business_name VARCHAR(45) NOT NULL,
-    phone         INT         NOT NULL,
+    phone         VARCHAR(9) NOT NULL,
     PRIMARY KEY (id)
 )
     ENGINE = InnoDB;
