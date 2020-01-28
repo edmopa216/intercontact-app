@@ -15,6 +15,7 @@ import javax.persistence.Table;
 public class Client {
 
     @Id
+    
     private int id;
 
     private String ruc;
